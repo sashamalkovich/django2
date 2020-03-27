@@ -1,0 +1,600 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add article",
+    "content_type": 7,
+    "codename": "add_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change article",
+    "content_type": 7,
+    "codename": "change_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete article",
+    "content_type": 7,
+    "codename": "delete_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view article",
+    "content_type": 7,
+    "codename": "view_article"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Admin",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      27,
+      28,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$sjpWHtWjNX4o$NDnpLL/YY2IE2U8VKpI7hK3m34HY8q+//zR7e0RpSDM=",
+    "last_login": "2019-11-12T18:30:25Z",
+    "is_superuser": true,
+    "username": "alex",
+    "first_name": "Alex",
+    "last_name": "Welm",
+    "email": "welmwelm@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-11-12T18:29:46Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      27,
+      28,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$8CM5kEe2utpa$mrSEIVJNwS1LN4zuRYzuU44cs8ffWHYoyzgZdWJMhTY=",
+    "last_login": "2020-03-23T16:56:34.621Z",
+    "is_superuser": true,
+    "username": "welm",
+    "first_name": "",
+    "last_name": "",
+    "email": "welmwelm@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-03-22T20:09:16Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      27,
+      28,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "coaa14u91whi2xi07nccg3qauz209cdl",
+  "fields": {
+    "session_data": "ZDBmMWEzOWExM2RiNzhkNmRmYmQwZmZkMjVhNWEwMmU0ODM0ODBhNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZmY1MmJhMjkwMmRjZmI3NDlmN2M5M2E3Mzg0ZjljNzljYjA2OWQ2In0=",
+    "expire_date": "2020-04-06T08:45:55.118Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mvxof5qoycwnnlfmc7z64g3kmqjo6nvn",
+  "fields": {
+    "session_data": "ZDBmMWEzOWExM2RiNzhkNmRmYmQwZmZkMjVhNWEwMmU0ODM0ODBhNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZmY1MmJhMjkwMmRjZmI3NDlmN2M5M2E3Mzg0ZjljNzljYjA2OWQ2In0=",
+    "expire_date": "2020-04-06T16:56:34.635Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tqmup4smboxrvskd7cudqmht9o3j24xo",
+  "fields": {
+    "session_data": "MTA3MmJhODRmZjQ0ZjVhOTYxZGE3MDcyZTk3MmI5NzRhNGVkNjUxYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYTNmMzc1MTMzMTQ1ODI2YzZhZjJmYTVmOThhNjkxNzVkMzc1MTAyIn0=",
+    "expire_date": "2019-11-26T18:30:25.331Z"
+  }
+},
+{
+  "model": "django_app.article",
+  "pk": 1,
+  "fields": {
+    "title": "Qulmangelw BLuwsvan",
+    "text": "When you reference a class that has not been imported, PyCharm helps you locate this file and add it to the list of imports. You can import a single class or an entire package, depending on your settings.\r\n\r\nThe import statement is added to the imports section, but the caret does not move from the current position, and your current editing session does not suspend. This feature is known as the Import Assistant.\r\n\r\nTo configure auto-import, in the Settings/Preferences dialog (\u2318,), go to Editor | General | Auto Import, and use the corresponding XML, Python, and TypeScript/JavaScript options.\r\n\r\nUsing Import Assistant is the preferred way to handle imports in PyCharm because import optimizations are not supported via command line.\r\n\r\nThe same possibility applies to XML files. When you type a tag with an unbound namespace, the import assistant suggests to create a namespace and offers a list of appropriate choices.\r\n\r\nCreating imports on the fly\ufeff\r\nImport packages on-the-fly\ufeff\r\nStart typing a name in the editor. If the name references a class that has not been imported, the following prompt appears:\r\n\r\nthe Import popup\r\nIf the popup annoys you, change this behavior for the current file. Just click Hector the Hector icon in the status bar, and clear the Import Pop-up checkbox:",
+    "user": 1
+  }
+},
+{
+  "model": "django_app.article",
+  "pk": 2,
+  "fields": {
+    "title": "Sdhjdkf JKHGjf",
+    "text": "Hi all,\r\n\r\nI cant seem to get modules to import.\r\n\r\nI'm new to pycharm and python so maybe I'm just doing something stupid\r\n\r\nhere is an example of the error and the code it came from when importing numpy:\r\n\r\n---------------------------------\r\n\r\nimport sys as s\r\n#import pandas as pd\r\nimport numpy as np\r\n#__import__(numpy) as np\r\n\r\ngarray = np.array([1,2,3])\r\n\r\nfor n in garray:\r\n    print(n)\r\nC:\\Users\\Scott\\venv\\code-play\\Scripts\\python.exe C:/Users/Scott/PycharmProjects/code-play/fun-np\r\nTraceback (most recent call last):\r\n  File \"C:/Users/Scott/PycharmProjects/code-play/fun-np\", line 3, in <module>\r\n    import numpy as np\r\nModuleNotFoundError: No module named 'numpy'\r\n\r\nProcess finished with exit code 1\r\n\r\n----------------------------------\r\n\r\n \r\n\r\nHere is the project interpreter setting, and numpy is there.\r\n\r\n\r\n\r\n \r\n\r\nAlso here are my environmental variables.\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\nI've also tried uninstalling and re-installing both python and pycharm.\r\n\r\nany help would be much appreciated,\r\n\r\nScott\r\n\r\nVotes\r\n1\r\nShare\r\n3 comments\r\nSORT BY\r\nAvatar\r\nScott Boswell90\r\nCreated May 04, 2018 06:05\r\nComment actions\r\nOk so I fixed my own problem, here is the problem:\r\n\r\nI was right cliking the project folder and selecting:  New > File (at top of list)\r\n\r\n \r\n\r\nSolution:\r\n\r\nSelect: New > Python File,\r\n\r\nAs well as going to project interpreter and selecting:  \"Python 36 C:\\Program Files\\Python36\\python.exe\",\r\n\r\n \r\n\r\nhope someone finds this useful,\r\n\r\nScott\r\n\r\n3\r\nAvatar\r\nSaso\r\nCreated August 01, 2018 10:22\r\nComment actions\r\nScott, it helped me. Thank you for posting it.\r\n\r\n0\r\nAvatar\r\nRaissasilmesant\r\nCreated September 30, 2018 19:50\r\nComment actions\r\nThank you, Scott! Helped me  a lot!\r\n\r\n0\r\nPlease sign in to leave a comment.\r\n\r\nSearch PyCharm\r\nDidn't find what you were looking for?",
+    "user": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2019-11-12T18:33:09.064Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2019-11-12T18:33:18.769Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "alex",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"groups\", \"user_permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2019-11-12T18:34:28.506Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "alex",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2019-11-12T18:46:13.620Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Article object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2019-11-12T18:46:20.229Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Article object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2019-11-12T18:48:03.716Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Article object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\", \"text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2019-11-12T18:49:18.133Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Article object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2019-11-12T18:49:27.145Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Article object (2)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2019-11-12T18:49:34.060Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Article object (2)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2019-11-12T18:58:10.806Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Sdhjdkf JKHGjf",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-03-22T20:38:14.582Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-03-22T20:38:58.480Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-03-22T20:40:47.930Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "welm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+  }
+}
+]

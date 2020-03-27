@@ -1,0 +1,45 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ESP32 Web Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href={% static 'style2.css' %}>
+  <script src={% static "test.js"%}></script>
+</head>
+
+<body>
+  <div class="card">
+    <h4><span id="ADCValue_0">0</span></h4>
+    <h1>LOW TANK:<span id="ADCValue_1">0</span>
+      HIGH TANK:<span id="ADCValue_2">0</span></h1>
+    <h1> AIR TEMP:<span id="ADCValue_3">0</span>
+      WATER TEMP:<span id="ADCValue_4">0</span></h1><br>
+    <h3>LIGHTS: <span id="ADCValue_5">0</span>
+      LIGHT 1: <span id="ADCValue_6">0</span>
+      LIGHT 2: <span id="ADCValue_7">0</span>
+      LIGHT 3: <span id="ADCValue_8">0</span>
+      WATER: <span id="ADCValue_9">0</span>
+      WATER RUN: <span id="ADCValue_10">0</span></h3>
+  </div>
+  <p>
+    <button class="button" onclick="sendLights(this)" value="LIGHTS">LIGHTS</button>
+    <button class="button" onclick="sendLight_0(this)" value="LIGHT 0">LIGHT 1</button>
+    <button class="button" onclick="sendLight_1(this)" value="LIGHT 1">LIGHT 2</button>
+    <button class="button" onclick="sendLight_2(this)" value="LIGHT 2">LIGHT 3</button></p>
+  <p>
+    <button class="button" onclick="sendDrain(this)" value="LIGHTS">DRAIN</button>
+    <button class="button" onclick="sendFill(this)" value="LIGHT 0"> FILL </button>
+    <button class="button" onclick="sendFillT(this)" value="LIGHT 1">FILL T </button>
+    <button class="button" onclick="sendDrainT(this)" value="LIGHT 2">DRAIN T</button></p>
+  <p>
+    <button onclick="changeColor(this)" class="button2" onclick="sendReset()" value="RESET"> RESET </button>
+    <button class="button2" onclick="sendLoad(this)" value="LOAD"> LOAD </button>
+    <button class="button2" onclick="sendSave(this)" value="SAVE"> SAVE </button></p>
+
+
+</body>
+
+</html>
