@@ -81,7 +81,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.mysql',
 #        'NAME': 'welm',
@@ -90,40 +90,22 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 #            'read_default_file': '/usr/local/etc/mysql/my.cnf',
 #        },
 #    }
-#}
+# }
 
 
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-if os.getenv('GAE_APPLICATION', None):
-    # Running on production App Engine, so connect to Google Cloud SQL using
-    # the unix socket at /cloudsql/<your-cloudsql-connection string>
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'HOST': '/cloudsql/spatial-cat-272109:europe-west2:welm-inctance',
-            'USER': 'welm',
-            'PASSWORD': 'abrikos9',
-            'NAME': 'welm',
-        }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'NAME': 'welm',
+        'USER': 'welm',
+        'PASSWORD': 'abrikos9',
     }
-else:
-    # Running locally so connect to either a local MySQL instance or connect to
-    # Cloud SQL via the proxy. To start the proxy via command line:
-    #
-    #     $ cloud_sql_proxy -instances=[INSTANCE_CONNECTION_NAME]=tcp:3306
-    #
-    # See https://cloud.google.com/sql/docs/mysql-connect-proxy
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'HOST': '127.0.0.1',
-            'PORT': '3306',
-            'NAME': 'welm',
-            'USER': 'welm',
-            'PASSWORD': 'abrikos9',
-        }
-    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -166,7 +148,7 @@ CSRF_COOKIE_HTTPONLY = False
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-#STATIC_URL = 'https://storage.googleapis.com/welm/static/'
+# STATIC_URL = 'https://storage.googleapis.com/welm/static/'
 
 LOGIN_REDIRECT_URL = '/first/'
 
