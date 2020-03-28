@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8eb872e-95d2-4a4e-af0e-9c30362ad806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/django2/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="340">
+              <caret line="231" column="13" lean-forward="true" selection-start-line="231" selection-start-column="13" selection-end-line="231" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -177,8 +174,8 @@
         <option value="$PROJECT_DIR$/templates/zMusicStudio/gallery_r.html" />
         <option value="$PROJECT_DIR$/django2/my.cnf" />
         <option value="$PROJECT_DIR$/django_app/views.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/django2/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -199,6 +196,16 @@
             <path>
               <item name="django2" type="b2602c69:ProjectViewProjectNode" />
               <item name="django2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django2" type="462c0819:PsiDirectoryNode" />
+              <item name="django2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django2" type="462c0819:PsiDirectoryNode" />
+              <item name="django_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django2" type="b2602c69:ProjectViewProjectNode" />
@@ -438,7 +445,7 @@
       <workItem from="1585154763416" duration="4533000" />
       <workItem from="1585246635664" duration="263000" />
       <workItem from="1585256934138" duration="948000" />
-      <workItem from="1585420745086" duration="1093000" />
+      <workItem from="1585420745086" duration="2404000" />
     </task>
     <task id="LOCAL-00001" summary="exclude database">
       <created>1585421309428</created>
@@ -447,7 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585421309429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add requrements.txt">
+      <created>1585424202780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585424202780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add requrements.txt1">
+      <created>1585424784402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585424784402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -483,7 +504,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89249000" />
+    <option name="totallyTimeSpent" value="90560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +519,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32188842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32188842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -509,7 +530,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="manage.py@django2" order="10" weight="0.32921347" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -554,7 +575,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exclude database" />
-    <option name="LAST_COMMIT_MESSAGE" value="exclude database" />
+    <MESSAGE value="add requrements.txt" />
+    <MESSAGE value="add requrements.txt1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requrements.txt1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -896,14 +919,14 @@
     <entry file="file://$PROJECT_DIR$/django2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="231" column="13" lean-forward="true" selection-start-line="231" selection-start-column="13" selection-end-line="231" selection-end-column="13" />
         </state>
       </provider>
     </entry>
